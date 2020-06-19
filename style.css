@@ -339,12 +339,8 @@
     margin-left: 5px;
     margin-top: 10px;
 }
-.menuVertical2 .conta{
-    display: grid;
-    width: 200px;
-    padding-top: 5px;
-    height: 20px;
-    margin-top: 10px;
+body{
+    height: 3000px;
 }
 .menuVertical2 a:hover{
     background: #E1E1E1;
@@ -393,5 +389,20 @@
     }
     #menuBtn{
         transform: translate(100px, -1px);
+    }
+}
+@media (max-width:300px){
+    #googleLogo h8{
+        display: none;
+    }
+    #searchBar{
+        width: 150px;
+        transform: translate(10px, -4px);
+    }
+    #searchBtn{
+        transform: translate(7px, -4px);
+    }
+    #menuBtn{
+        transform: translate(50px, -1px);
     }
 }
