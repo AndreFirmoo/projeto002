@@ -391,7 +391,7 @@ body{
         transform: translate(100px, -1px);
     }
 }
-@media (max-width:300px){
+@media (max-width:500px){
     #googleLogo h8{
         display: none;
     }
