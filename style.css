@@ -70,13 +70,14 @@
 }
 #entertainment #entertainmentBtn{
     display: inline-block;
-    width: 150px;
+    width: 200px;
     height: 45px;
     color: #fff;
     text-decoration: none;
     font-family: sans-serif;
     font-size: 15px;
     background: #444;
+    position: fixed;
 }
 #entertainment #entertainmentBtn h8{
     display: inline-block;
@@ -111,6 +112,243 @@
     border-radius: 5px;
     float: right;
     margin-right: 30px;
+}
+.verticalMenu{
+    display: grid;
+    position: fixed;
+    width: 200px;
+    box-shadow: 0px 1px 5px 1px #000;
+    margin-top: -4px;
+}
+.verticalMenu .aplicativos{
+    display: grid;
+    height: 45px;
+    width: 200px;
+    background: #F5F5F5;
+    box-sizing: border-box;
+}
+.verticalMenu .aplicativos a > i{
+    background: #689F38;
+    display: block;
+    width: 60px;
+    position: absolute;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #fff;
+}
+.verticalMenu .aplicativos a > h8{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 60px;
+    margin-top: 0px;
+    width: 140px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.verticalMenu .aplicativos:hover a > h8{
+    background: #689F38;
+    color: #fff;
+}
+.verticalMenu .filmes{
+    display: grid;
+    height: 45px;
+    width: 200px;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    margin-top: -5px;
+}
+.verticalMenu .filmes a > i{
+    background: #ED3B3B;
+    display: block;
+    width: 60px;
+    position: absolute;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #fff;
+}
+.verticalMenu .filmes a > h8{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 60px;
+    margin-top: 0px;
+    width: 140px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.verticalMenu .filmes:hover a > h8{
+    background: #ED3B3B;
+    color: #fff;
+}
+.verticalMenu .musica{
+    display: grid;
+    height: 45px;
+    width: 200px;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    margin-top: -5px;
+}
+.verticalMenu .musica a > i{
+    background: #EF6C00;
+    display: block;
+    width: 60px;
+    position: absolute;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #fff;
+}
+.verticalMenu .musica a > h8{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 60px;
+    margin-top: 0px;
+    width: 140px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+.verticalMenu .musica:hover a > h8{
+    background: #EF6C00;
+    color: #fff;
+}
+.verticalMenu .livros{
+    display: grid;
+    height: 40px;
+    width: 200px;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    margin-top: -5px;
+}
+.verticalMenu .livros a > i{
+    background: #039BE5;
+    display: block;
+    width: 60px;
+    position: absolute;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #fff;
+}
+.verticalMenu .livros a > h8{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 60px;
+    margin-top: 0px;
+    width: 140px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.verticalMenu .livros:hover a > h8{
+    background: #039BE5;
+    color: #fff;
+}
+.menuVertical2{
+    display: grid;
+    border-top: 1px solid #d6d5d5;
+    width: 200px;
+    background: #F5F5F5;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.menuVertical2 a{
+    color: #6F6F6F;
+    text-decoration: none;
+}
+.menuVertical2 .conta{
+    display: grid;
+    margin-left: 5px;
+    width: 200px;
+    padding-top: 5px;
+    height: 20px;
+    margin-top: 10px;
+}
+.menuVertical2 .pagamento{
+    display: grid;
+    width: 200px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+    margin-top: 10px;
+}
+.menuVertical2 .assinaturas{
+    display: grid;
+    width: 200px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+    margin-top: 10px;
+}
+.menuVertical2 .resgatar{
+    display: grid;
+    width: 200px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+    margin-top: 10px;
+}
+.menuVertical2 .presente{
+    display: grid;
+    width: 200px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+    margin-top: 10px;
+}
+.menuVertical2 .desejos{
+    display: grid;
+    width: 200px;
+    padding-bottom: 5px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.menuVertical2 .pais{
+    display: grid;
+    width: 200px;
+    padding-bottom: 5px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.menuVertical2 .conta{
+    display: grid;
+    width: 200px;
+    padding-top: 5px;
+    height: 20px;
+    margin-top: 10px;
+}
+.menuVertical2 a:hover{
+    background: #E1E1E1;
+    width: 195px;
 }
 @media (max-width:900px){
     #googleLogo h8{
