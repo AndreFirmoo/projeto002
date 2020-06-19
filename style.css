@@ -365,3 +365,33 @@
         transform: translate(200px, -1px);
     }
 }
+@media (max-width:800px){
+    #googleLogo h8{
+        display: none;
+    }
+    #searchBar{
+        width: 200px;
+        transform: translate(40px, -4px);
+    }
+    #searchBtn{
+        transform: translate(37px, -4px);
+    }
+    #menuBtn{
+        transform: translate(200px, -1px);
+    }
+}
+@media (max-width:600px){
+    #googleLogo h8{
+        display: none;
+    }
+    #searchBar{
+        width: 150px;
+        transform: translate(10px, -4px);
+    }
+    #searchBtn{
+        transform: translate(7px, -4px);
+    }
+    #menuBtn{
+        transform: translate(100px, -1px);
+    }
+}
